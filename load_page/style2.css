@@ -6,6 +6,7 @@
 body {
   background: #888845;
   cursor: wait;
+  overflow: hidden;
 }
 
 .panel {
