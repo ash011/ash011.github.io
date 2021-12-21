@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  background: #888845;
+  cursor: wait;
+}
+
+.panel {
+  margin: 30px 0px 0px 30px;
+}
+
+.panel a{
+  color: brown;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container .load {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  border-top: 4px solid cyan;
+  animation: loadAnime 1.5s linear infinite;
+}
+
+@keyframes loadAnime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container .load::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: cyan;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #24ecff33, 0 0 0 5px #24ecff22;
+}
+
+.container::before {
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  font-family: cursive;
+  letter-spacing: 7px;
+}
