@@ -6,6 +6,7 @@
 body {
   background: rgb(1, 9, 12);
   cursor: wait;
+  overflow: hidden;
 }
 
 .panel {
@@ -30,8 +31,8 @@ body {
 
 .container .load {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border: 5px solid transparent;
   border-top: 4px solid cyan;
   border-radius: 50%;
@@ -53,8 +54,8 @@ body {
   width: 15px;
   height: 15px;
   background: #24ecff;
-  top: 12px;
-  right: 12px;
+  top: 18px;
+  right: 18px;
   border-radius: 50%;
   box-shadow: 0 0 0 5px #24ecff33, 0 0 0 10px #24ecff22;
 }
