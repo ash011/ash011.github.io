@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#root {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    background-color: #f0f0f0;
+    border: black 1px solid;
+    padding: 10px;
+}
+
+#text_box {
+    margin-bottom: 10px;
+}
+
+p {
+    display: inline;
+}
+
+.buttons {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+button {
+    width: 100px;
+}

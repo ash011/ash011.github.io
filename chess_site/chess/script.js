@@ -1,7 +1,6 @@
-import dashter from "./q.json" assert { type: "json" };
+import dashter from "./q.js";
 
 let count = 0;
-// dashter.length = 5;
 dashter.forEach((dirq, i) => {
   let board = document.createElement("div");
   let doska = document.createElement("div");
