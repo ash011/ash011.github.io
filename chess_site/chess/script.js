@@ -1,5 +1,5 @@
 import dashter from "./q.js";
-
+console.log(dashter);
 let count = 0;
 dashter.forEach((dirq, i) => {
   let board = document.createElement("div");

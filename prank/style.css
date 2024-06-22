@@ -9,7 +9,7 @@ body {
 
 #root {
     width: 250px;
-    height: 80px;
+    height: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
